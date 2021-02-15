@@ -63,8 +63,8 @@ app.post('/webhook', async (req, res) => {
             { 
                 headers: {
                 "Content-Type": "application/json", 
-                "x-app-id": "45d558a8", 
-                "x-app-key": "283a05f63e61bb5c305979fdfca57b28"
+                "x-app-id": "*****", 
+                "x-app-key": "******"
             }
             }).then(response => {
                     const food_name = response.data.foods[0].food_name;
