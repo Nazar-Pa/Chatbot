@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="28dp"
+    android:paddingLeft="44dp"
+    android:paddingTop="4dp"
+    android:id="@+id/date_asking"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/today"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="today"
+            android:textColor="#5386b0"
+            android:clickable="false"
+            android:focusable="false"
+            />
+
+        <View
+            android:layout_width="8dp"
+            android:layout_height="0dp" />
+
+        <Button
+            android:id="@+id/yesterday"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/round_button"
+            android:text="yesterday"
+            android:textColor="#5386b0"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/date"-->
+    <!--        android:layout_width="250dp"-->
+    <!--        android:layout_height="60dp"-->
+    <!--        android:layout_marginLeft="8dp"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:background="@drawable/button_background"-->
+    <!--        android:drawableEnd="@drawable/ic_arrow_drop_down"-->
+    <!--        android:text="Date"-->
+    <!--        android:textColor="#323299"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/title" />-->
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/time"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/date">-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/startTime"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@drawable/button_background"-->
+    <!--            android:drawableEnd="@drawable/ic_arrow_drop_down"-->
+    <!--            android:text="start"-->
+    <!--            android:textColor="#323299" />-->
+
+    <!--        <View-->
+    <!--            android:layout_width="8dp"-->
+    <!--            android:layout_height="0dp" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/endTime"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@drawable/button_background"-->
+    <!--            android:drawableEnd="@drawable/ic_arrow_drop_down"-->
+    <!--            android:text="end"-->
+    <!--            android:textColor="#323299" />-->
+
+    <!--    </LinearLayout>-->
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/action"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="8dp"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/time">-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/save"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@drawable/save_cancel"-->
+    <!--            android:text="save"-->
+    <!--            android:textColor="#ffffff" />-->
+
+    <!--        <View-->
+    <!--            android:layout_width="8dp"-->
+    <!--            android:layout_height="0dp" />-->
+
+    <!--        <Button-->
+    <!--            android:id="@+id/cancel"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_weight="1"-->
+    <!--            android:background="@drawable/save"-->
+    <!--            android:text="cancel"-->
+    <!--            android:textColor="#ffffff" />-->
+
+    <!--    </LinearLayout>-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

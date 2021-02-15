@@ -1,0 +1,6 @@
+rootProject.name='DialogflowChatLibrary'
+include ':app'
+include ':app:dialogflowchatlibrary'
+
+//include ':java:com.tyagiabhinav.dialogflowchat'
+

@@ -1,0 +1,51 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tyagiabhinav.dialogflowchatlibrary" >
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application>
+        <activity android:name=".database.ui.activity.NotesListActivity" />
+        <activity android:name=".database.ui.activity.FoodListActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+<!--        <receiver android:name="com.tyagiabhinav.dialogflowchat.AlarmReceiver"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true"/>-->
+
+<!--        <service-->
+<!--            android:name="com.tyagiabhinav.dialogflowchat.AlarmService"-->
+<!--            android:enabled="true"-->
+<!--            android:exported="true"-->
+<!--            android:permission="android.permission.BIND_JOB_SERVICE" />-->
+        <receiver android:name=".AlertReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <receiver android:name=".NotificationAlertReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <receiver android:name=".MorningAlertReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <receiver android:name=".NoonAlertReceiver"
+        android:enabled="true"
+        android:exported="true"/>
+
+        <receiver android:name=".DayAlertReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <receiver android:name=".AfternoonAlertReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <receiver android:name=".EveningAlertReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+
+    </application>
+</manifest>
